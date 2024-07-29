@@ -32,3 +32,6 @@ jobs:
       run: mvn deploy -Prelease -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+        gpg_private_key: ${{ secrets.GPG_SECRET }}
+        gpg_passphrase: ${{ secrets.GPG_PASSWORD }}
+        nexus_password: ${{ secrets.OSSRH_TOKEN }}
