@@ -1,6 +1,6 @@
 <!DOCTYPE suppressions PUBLIC
     "-//Puppy Crawl//DTD Suppressions 1.0//EN"
-    "http://www.sparrowzoo.com/dtds/suppressions_1_0.dtd">
+    "https://checkstyle.org/dtds/suppressions_1_0.dtd">
 
 <suppressions>
   <suppress checks="RegexpSingleline"

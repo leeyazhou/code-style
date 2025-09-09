@@ -13,12 +13,12 @@
 	<artifactId>code-style</artifactId>
 	<version>2.0.1</version>
 	<name>${project.artifactId}</name>
-	<description>bytesgo parent</description>
-	<url>https://github.com/${github.org}/${github.repo}.git</url>
+	<description>Code style and Checkstyle configuration for BytesGo projects</description>
+	<url>https://github.com/${github.org}/${github.repo}</url>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -38,19 +38,18 @@
 		</contributor>
 	</contributors>
 	<scm>
-		<connection>scm:git:git@github.com:${github.org}/${github.repo}.git</connection>
-		<developerConnection>
-			scm:git:git@github.com:${github.org}/${github.repo}.git</developerConnection>
+		<connection>scm:git:https://github.com/${github.org}/${github.repo}.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/${github.org}/${github.repo}.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>git@github.com:${github.org}/${github.repo}.git</url>
+		<url>https://github.com/${github.org}/${github.repo}</url>
 	</scm>
 	<issueManagement>
 		<system>github-issue</system>
 		<url>https://github.com/${github.org}/${github.repo}/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>travis-ci</system>
-		<url>https://travis-ci.org/${github.org}/${github.repo}</url>
+		<system>GitHub Actions</system>
+		<url>https://github.com/${github.org}/${github.repo}/actions</url>
 	</ciManagement>
 
 	<properties>
